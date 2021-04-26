@@ -6,7 +6,7 @@ MoGuDing check in/out automatically
 2. Deploy github action workflow.  
 3. Modify your serverchan skey  
 > ![image](https://user-images.githubusercontent.com/30458572/116025058-2b755080-a682-11eb-9633-1d7d88fe09f9.png)
-5. Enjoy it :)  
+4. Enjoy it :)  
 ![image](https://user-images.githubusercontent.com/30458572/115913879-c532d700-a4a3-11eb-9f4c-8b4a82aef996.png)
 
 ### Screenshots:
