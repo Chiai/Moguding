@@ -1,4 +1,5 @@
 # Moguding
+蘑菇丁自动化签到以及自动化周报
 MoGuDing check in/out automatically
 
 ### Usage:   
