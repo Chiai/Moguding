@@ -1,9 +1,9 @@
-name: "START Type"
+name: "END Type"
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "00 00 * * 1-5"
+    - cron: "30 10 * * *"
 
 jobs:
   build:
@@ -24,4 +24,4 @@ jobs:
             Phone: ${{ secrets.Phone }}
             Password: ${{ secrets.Password }}
             Address: ${{ secrets.Address }}
-        run: python3 ./START.py
+        run: python3 ./Main.py -action END
