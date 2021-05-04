@@ -1,6 +1,6 @@
 # Moguding
 蘑菇丁自动化签到以及自动化周报  
-MoGuDing check in/out automatically
+MoGuDing check in/out & write weekly-report automatically
 
 ### Usage:   
 1. Setup encrypted secrets in github workflow: [link](https://docs.github.com/cn/actions/reference/encrypted-secrets)  
