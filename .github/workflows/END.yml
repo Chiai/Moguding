@@ -19,9 +19,9 @@ jobs:
 
       - name: Install requirements
         run: pip install -r requirements.txt
-      - name: Working
+      - name: Run sign
         env: 
             Phone: ${{ secrets.Phone }}
             Password: ${{ secrets.Password }}
             Address: ${{ secrets.Address }}
-        run: python3 ./End.py
+        run: python3 ./Run.py -s END
