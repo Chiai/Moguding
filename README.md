@@ -45,7 +45,8 @@
 
 ### 3. 启用 Actions
 
-返回项目主页面，点击上方的 `Actions`，这时候会提示 `Workflows` 在 `Fork` 的仓库中无法运行”，接下来点击 `I understand my workflows. go ahead and enable them` 确认开启 `Workflows`
+返回项目主页面，点击上方的 `Actions`，这时候会提示 `Workflows` 在 `Fork` 的仓库中无法运行”，\
+接下来点击 `I understand my workflows. go ahead and enable them` 确认开启 `Workflows`
 > ![Actions][Actions-screenshot]
 
 至此，部署完毕。
@@ -56,7 +57,7 @@
 * `End Type` 为下班签到
 
 当你完成上述流程，可以在Actions页面点击 [`START Type` | `End Type`] --> `build` --> `Run sign` 查看结果。\
-如果成功，会输出类似'msg': 'Success'的信息：
+如果成功，会输出类似'msg': 'success'的信息：
 ```
     2021-05-09 19:20:54 INFO sleep for 0 seconds ...        
     2021-05-09 19:20:56 INFO {'code': 200, 'msg': 'success'}
